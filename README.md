@@ -40,10 +40,10 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
 step 7 :
                  # ./linuxbooster-battery.sh              //this method use while use battery .Without plug 
                  
-                 
- step 8 :
+step 8 :
+
                  
                   # ./linuxbooster-AC.sh              //this method use while system is charging or pluged
 
 
-step 7 is repeat your every bootup 
+step 7 OR 8 is repeat your every bootup 
