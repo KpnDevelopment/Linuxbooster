@@ -21,7 +21,10 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
  => give the exicute permission
 
     step 4 : 
-                $chmod +x install.sh && chmod +x linuxbooster.sh
+                $chmod +x install.sh 
+                $chmod +x linuxbooster-battery.sh
+                $chmod +x linuxbooster-AC.sh
+                 
 
  => get the root permission using terminal
 
