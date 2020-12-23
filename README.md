@@ -38,7 +38,12 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
  => after requirements  install then run  the following commands
 
 step 7 :
-                 # ./linuxbooster.sh
+                 # ./linuxbooster-battery.sh              //this method use while use battery .Without plug 
+                 
+                 
+                 OR
+                 
+                  # ./linuxbooster-AC.sh              //this method use while system is charging or pluged
 
 
 step 7 is repeat your every bootup 
