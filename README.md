@@ -41,7 +41,7 @@ step 7 :
                  # ./linuxbooster-battery.sh              //this method use while use battery .Without plug 
                  
                  
-                 OR
+ step 8 :
                  
                   # ./linuxbooster-AC.sh              //this method use while system is charging or pluged
 
