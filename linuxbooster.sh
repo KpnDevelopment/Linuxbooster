@@ -31,6 +31,12 @@
   echo "                                                                                                                          "
   echo "                                                                                                                         "
 }
+suc(){
+echo "             +-+-+-+- +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+"             
+echo "                |e|x|e|c|u|t|e|d| |s|u|c|c|e|s|s|f|u|l|l|y|                            "             
+echo "             +-+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+"             
+                                    
+}
 
 batteryboost(){
 echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor &&
@@ -103,3 +109,4 @@ fi
 linuxbooster	
 #amdgraphics Boost
 Radeonboost
+suc
