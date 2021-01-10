@@ -39,6 +39,6 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
 
 step 7 is repeat your every bootup
 
-In my Case i use in my laptop i5 8th gen 4gb Ram
+=> In my Case i use in my laptop i5 8th gen 4gb Ram
 
-![alt text](https://github.com/[KpnDevelopment]/[linuxbooster]/blob/[main]/linuxbooster.jpg?raw=true)
+    check the linuxbooster.jpg image file
