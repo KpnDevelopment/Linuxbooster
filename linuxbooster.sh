@@ -9,7 +9,7 @@
 	 echo "   -------------Linuxbooster------------"
 	 echo "  | This is an experimental project      |"
 	 echo "  | It only works im Debain based os     |"
-	 echo "  | Thanks to use                        |" 
+	 echo "  | Thanks for use                        |" 
 	 echo "  ---------------------------------------"
 	 
 	 
@@ -33,7 +33,7 @@
 }
 suc(){
 echo "             +-+-+-+- +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+"             
-echo "                |e|x|e|c|u|t|e|d| |s|u|c|c|e|s|s|f|u|l|l|y|                            "             
+echo "                |l|i|n|u|x|b|o|o|s|t|e|r|  |e|x|e|c|u|t|e|d|              "             
 echo "             +-+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+"             
                                     
 }
@@ -48,6 +48,7 @@ echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governo
    CPU_HWP_ON_BAT=performance &&
    CPU_BOOST_ON_BAT=1 &&
     ENERGY_PERF_POLICY_ON_BAT=performance
+    echo "Battery-Boost-mode Activated Successfully"
 }
 
 
@@ -60,6 +61,7 @@ acboost(){
  	CPU_HWP_ON_AC=performance  &&
  	CPU_BOOST_ON_AC=1 &&
  	ENERGY_PERF_POLICY_ON_AC=performance
+   echo "AC-Boost-mode Activated Successfully"
 }
 
 

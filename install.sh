@@ -21,10 +21,27 @@ suc(){
    echo "               +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"
 
 }
-
+welcome(){
+   echo "             ┌───────────────────────────────────────────────────────────────┐"
+   echo "            │▌ ▌   ▜               ▐      ▜ ▗          ▌           ▐        │"
+   echo "            │▌▖▌▞▀▖▐ ▞▀▖▞▀▖▛▚▀▖▞▀▖ ▜▀ ▞▀▖ ▐ ▄ ▛▀▖▌ ▌▚▗▘▛▀▖▞▀▖▞▀▖▞▀▘▜▀ ▞▀▖▙▀▖│"
+   echo "            │▙▚▌▛▀ ▐ ▌ ▖▌ ▌▌▐ ▌▛▀  ▐ ▖▌ ▌ ▐ ▐ ▌ ▌▌ ▌▗▚ ▌ ▌▌ ▌▌ ▌▝▀▖▐ ▖▛▀ ▌  │"
+   echo "            │▘ ▘▝▀▘ ▘▝▀ ▝▀ ▘▝ ▘▝▀▘  ▀ ▝▀   ▘▀▘▘ ▘▝▀▘▘ ▘▀▀ ▝▀ ▝▀ ▀▀  ▀ ▝▀▘▘  │"
+   echo "            └───────────────────────────────────────────────────────────────┘"
+}
+su(){
+   sudo -s
+}
+chmod(){
+   sudo  chmod +x linuxbooster.sh ;
+   echo " permission confirm"
+}
 install(){
-sudo apt-get update  && sudo apt-get upgrade  -y   && sysctl -w vm.swappiness=10  && sudo apt-get install tlp tlp-rdw -y &&  sudo apt update && sudo apt-get install preload && sudo apt-get autoremove  && rm -r ~/.cache/thumbnails
+sudo apt-get update  && sudo apt-get upgrade  -y && sudo apt-get install preload  && sudo apt-get install tlp tlp-rdw -y &&  sudo apt update  && sudo apt-get autoremove  && rm -r ~/.cache/thumbnails
 }
 banner
 install
+chmod
 suc
+welcome
+su

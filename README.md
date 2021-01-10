@@ -21,9 +21,8 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
 
     step 4 :
                 $chmod +x install.sh
-                $chmod +x linuxbooster.sh
 
-=> get the root permission using terminal
+=> get the root permission using terminal or check you are standing root or not
 
     step 5 :
                 $sudo -s   //required
@@ -36,7 +35,10 @@ The purpose of the project is increase the perfomance of linux sysytems .This me
 => after requirements install then run the following commands
 
     step 7 :
-
-                  # bash  ./linuxbooster.sh              //to exicute
+                  # bash  ./linuxbooster.sh
 
 step 7 is repeat your every bootup
+
+In my Case i use in my laptop i5 8th gen 4gb Ram
+
+![alt text](https://github.com/[KpnDevelopment]/[linuxbooster]/blob/[main]/linuxbooster.jpg?raw=true)
