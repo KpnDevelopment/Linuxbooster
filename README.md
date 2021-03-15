@@ -1,6 +1,6 @@
 # linuxbooster
 
-The purpose of the project is increase the perfomance of linux sysytems .This method is works linux only. Root permission required
+The purpose of the project is increase the perfomance of linux systems .This method is works linux only. Root permission required
 
 => open the terminal window
 
